@@ -3,8 +3,8 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/agent-cli-scaffold"><img src="https://img.shields.io/npm/v/agent-cli-scaffold?style=flat&colorA=1a1a2e&colorB=7f5af0" alt="npm"></a>
   <a href="https://www.npmjs.com/package/agent-cli-scaffold"><img src="https://img.shields.io/npm/dm/agent-cli-scaffold?style=flat&colorA=1a1a2e&colorB=7f5af0" alt="downloads"></a>
-  <a href="https://github.com/yourorg/agent-cli-scaffold/actions"><img src="https://img.shields.io/github/actions/workflow/status/yourorg/agent-cli-scaffold/ci.yml?branch=main&style=flat&colorA=1a1a2e&colorB=7f5af0" alt="build"></a>
-  <a href="https://codecov.io/gh/yourorg/agent-cli-scaffold"><img src="https://img.shields.io/codecov/c/github/yourorg/agent-cli-scaffold?style=flat&colorA=1a1a2e&colorB=7f5af0" alt="coverage"></a>
+  <a href="https://github.com/RedKnight-aj/agent-cli-scaffold/actions"><img src="https://img.shields.io/github/actions/workflow/status/RedKnight-aj/agent-cli-scaffold/ci.yml?branch=main&style=flat&colorA=1a1a2e&colorB=7f5af0" alt="build"></a>
+  <a href="https://codecov.io/gh/RedKnight-aj/agent-cli-scaffold"><img src="https://img.shields.io/codecov/c/github/RedKnight-aj/agent-cli-scaffold?style=flat&colorA=1a1a2e&colorB=7f5af0" alt="coverage"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/npm/l/agent-cli-scaffold?style=flat&colorA=1a1a2e&colorB=7f5af0" alt="license"></a>
 </p>
 
@@ -90,11 +90,11 @@ npx agent-cli-scaffold my-agent --yes
 - **Teams** standardizing agent infrastructure
 
 <p align="center">
-  <a href="https://github.com/yourorg/agent-cli-scaffold/stargazers">
-    <img src="https://img.shields.io/github/stars/yourorg/agent-cli-scaffold?style=flat&labelColor=1a1a2e&colorB=7f5af0" alt="stars">
+  <a href="https://github.com/RedKnight-aj/agent-cli-scaffold/stargazers">
+    <img src="https://img.shields.io/github/stars/RedKnight-aj/agent-cli-scaffold?style=flat&labelColor=1a1a2e&colorB=7f5af0" alt="stars">
   </a>
-  <a href="https://github.com/yourorg/agent-cli-scaffold/network/members">
-    <img src="https://img.shields.io/github/forks/yourorg/agent-cli-scaffold?style=flat&labelColor=1a1a2e&colorB=7f5af0" alt="forks">
+  <a href="https://github.com/RedKnight-aj/agent-cli-scaffold/network/members">
+    <img src="https://img.shields.io/github/forks/RedKnight-aj/agent-cli-scaffold?style=flat&labelColor=1a1a2e&colorB=7f5af0" alt="forks">
   </a>
 </p>
 

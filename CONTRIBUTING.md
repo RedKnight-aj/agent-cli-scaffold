@@ -82,7 +82,7 @@ refactor: simplify template logic
 ## Questions?
 
 - Open an issue for bugs or feature requests
-- Disucss in GitHub Discussions
+- Discuss in GitHub Discussions
 
 ---
 

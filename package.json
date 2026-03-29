@@ -23,8 +23,8 @@
     "scaffold",
     "generator"
   ],
-  "homepage": "https://github.com/yourorg/agent-cli-scaffold#readme",
-  "author": "",
+  "homepage": "https://github.com/RedKnight-aj/agent-cli-scaffold#readme",
+  "author": "RedKnight",
   "license": "MIT",
   "dependencies": {
     "commander": "^11.1.0",
