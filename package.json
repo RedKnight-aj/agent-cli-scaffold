@@ -1,7 +1,7 @@
 {
   "name": "agent-cli-scaffold",
   "version": "1.0.0",
-  "description": "Professional CLI Tool Generator - Create agents, MCP servers, and multi-agent systems",
+  "description": "⚡ Ship production-ready AI agents in seconds. Generate CLI tools, MCP servers, and multi-agent systems with a single command.",
   "main": "dist/index.js",
   "bin": {
     "agent-cli-scaffold": "./bin/cli.js"
@@ -16,13 +16,14 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": [
+    "ai",
     "cli",
-    "agent",
     "mcp",
+    "agent",
     "scaffold",
-    "generator",
-    "ai"
+    "generator"
   ],
+  "homepage": "https://github.com/yourorg/agent-cli-scaffold#readme",
   "author": "",
   "license": "MIT",
   "dependencies": {

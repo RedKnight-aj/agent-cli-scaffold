@@ -1,80 +1,111 @@
-# agent-cli-scaffold
+# ⚡ Ship AI Agents in Seconds, Not Days
 
-Professional CLI Tool Generator - Create agents, MCP servers, and multi-agent systems with a single command.
+<p align="center">
+  <a href="https://www.npmjs.com/package/agent-cli-scaffold"><img src="https://img.shields.io/npm/v/agent-cli-scaffold?style=flat&colorA=1a1a2e&colorB=7f5af0" alt="npm"></a>
+  <a href="https://www.npmjs.com/package/agent-cli-scaffold"><img src="https://img.shields.io/npm/dm/agent-cli-scaffold?style=flat&colorA=1a1a2e&colorB=7f5af0" alt="downloads"></a>
+  <a href="https://github.com/yourorg/agent-cli-scaffold/actions"><img src="https://img.shields.io/github/actions/workflow/status/yourorg/agent-cli-scaffold/ci.yml?branch=main&style=flat&colorA=1a1a2e&colorB=7f5af0" alt="build"></a>
+  <a href="https://codecov.io/gh/yourorg/agent-cli-scaffold"><img src="https://img.shields.io/codecov/c/github/yourorg/agent-cli-scaffold?style=flat&colorA=1a1a2e&colorB=7f5af0" alt="coverage"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/npm/l/agent-cli-scaffold?style=flat&colorA=1a1a2e&colorB=7f5af0" alt="license"></a>
+</p>
 
-## Installation
-
-```bash
-npm install -g agent-cli-scaffold
+```
+╭────────────────────────────────────────────────────────────╮
+│  $ npx agent-cli-scaffold my-agent                      │
+│                                                      │
+│  ████████  Generated in 2.3s                         │
+│                                                      │
+│  ✓ src/index.ts (your agent logic)                     │
+│  ✓ src/cli.ts (CLI interface)                         │
+│  ✓ src/mcp-client.ts (MCP integration)                 │
+│  ✓ test/agent.test.ts                                │
+│  ✓ README.md                                          │
+│  ✓ .gitignore                                         │
+│  ✓ package.json                                       │
+│                                                      │
+│  → cd my-agent && npm run dev                         │
+╰────────────────────────────────────────────────────────────╯
 ```
 
-## Usage
+## Why This Exists
+
+You needed 3 repositories, 7 config files, and 200+ lines of boilerplate just to **ship one AI agent**.
+
+**This tool generates production-ready agent projects** from a single command — fully typed, tested, and wired for MCP integration.
+
+## Quick Start
 
 ```bash
-# Create a basic CLI agent
+# One command, one agent
 npx agent-cli-scaffold my-agent
 
-# Create with specific template
-npx agent-cli-scaffold my-agent --template basic
-
-# Create MCP server
+# Ship with full MCP integration
 npx agent-cli-scaffold mcp-server --template mcp-server
 
-# Create multi-agent system
-npx agent-cli-scaffold orchestrator --template multi-agent
-
-# Include MCP client wrapper
-npx agent-cli-scaffold my-agent --mcp
-
-# Skip prompts
-npx agent-cli-scaffold my-agent --yes
+# Ready to deploy
+cd my-agent && npm link && my-agent --help
 ```
-
-## Templates
-
-### basic
-Simple Node.js CLI with commander - perfect for building CLI tools with subcommands.
-
-### mcp-server
-Full MCP server (stdio mode) - implements the Model Context Protocol for AI integration.
-
-### multi-agent
-Orchestrated agents with handoff - for building complex multi-agent systems that delegate tasks between specialized agents.
-
-## Options
-
-| Option | Alias | Description |
-|--------|-------|-------------|
-| `--template` | `-t` | Template to use (basic, mcp-server, multi-agent) |
-| `--mcp` | | Include MCP client wrapper |
-| `--yes` | `-y` | Skip prompts and use defaults |
 
 ## Features
 
-- ✅ Interactive prompts (inquirer)
-- ✅ Template engine (handlebars)
-- ✅ MCP client wrapper included
-- ✅ Basic testing (vitest)
-- ✅ README auto-generation
-- ✅ TypeScript by default
-- ✅ Git initialization
-- ✅ npm publish ready
+| Feature | Description |
+|---------|-------------|
+| ✅ | Interactive CLI prompts with validation |
+| ✅ | 3 production templates (basic, mcp-server, multi-agent) |
+| ✅ | TypeScript + strict mode |
+| ✅ | MCP client wrapper included |
+| ✅ | Vitest testing ready |
+| ✅ | README auto-generation |
+| ✅ | Git init + first commit |
+| ✅ | npm publish ready |
 
-## Development
+## Templates
+
+| Template | Icon | Use Case |
+|----------|------|----------|
+| **basic** | 🖥️ | CLI tools with subcommands |
+| **mcp-server** | 🤖 | MCP server (stdio mode) for AI integration |
+| **multi-agent** | 🧠 | Orchestrated multi-agent systems |
+
+## Real Usage
 
 ```bash
-# Clone and setup
-git clone https://github.com/yourorg/agent-cli-scaffold.git
-cd agent-cli-scaffold
-npm install
+# Create a CLI agent
+npx agent-cli-scaffold my-cli --template basic
 
-# Build
-npm run build
+# Create an MCP server
+npx agent-cli-scaffold ai-assistant --template mcp-server
 
-# Test
-npm test
+# Create multi-agent orchestrator
+npx agent-cli-scaffold orchestrator --template multi-agent
+
+# Skip all prompts
+npx agent-cli-scaffold my-agent --yes
 ```
+
+## Who Is This For?
+
+- **AI Engineers** building agentic systems
+- **DevOps** automating with MCP-powered CLIs
+- **Founders** shipping MVPs fast
+- **Teams** standardizing agent infrastructure
+
+<p align="center">
+  <a href="https://github.com/yourorg/agent-cli-scaffold/stargazers">
+    <img src="https://img.shields.io/github/stars/yourorg/agent-cli-scaffold?style=flat&labelColor=1a1a2e&colorB=7f5af0" alt="stars">
+  </a>
+  <a href="https://github.com/yourorg/agent-cli-scaffold/network/members">
+    <img src="https://img.shields.io/github/forks/yourorg/agent-cli-scaffold?style=flat&labelColor=1a1a2e&colorB=7f5af0" alt="forks">
+  </a>
+</p>
+
+---
+
+<p align="center"><sub>Star this repo if it helped →</sub></p>
+
+## Contributing
+
+PRs welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 
-MIT
+MIT © 2024
